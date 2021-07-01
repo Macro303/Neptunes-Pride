@@ -18,7 +18,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation(group = "org.yaml", name="snakeyaml", version="1.28")
 	implementation(group = "com.konghq", name="unirest-java", version="3.11.11")
-	runtimeOnly(group = "org.xerial", name="sqlite-jdbc", version="3.34.0")
+	runtimeOnly(group = "org.xerial", name="sqlite-jdbc", version="3.36.0.1")
 
 	//Ktor
 	val ktorVersion = "1.5.2"
